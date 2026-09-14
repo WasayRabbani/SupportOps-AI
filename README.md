@@ -23,7 +23,7 @@
 
 ## Overview
 
-Aegis Support is a simulated e-commerce customer support agent that goes beyond a typical "RAG chatbot" project. It combines retrieval-augmented generation, multi-step agentic reasoning, tool use against live business data, human-in-the-loop escalation, and continuous evaluation — deployed as a real service with monitoring, not just a notebook.
+SupportOPS AI is a simulated e-commerce customer support agent that goes beyond a typical "RAG chatbot" project. It combines retrieval-augmented generation, multi-step agentic reasoning, tool use against live business data, human-in-the-loop escalation, and continuous evaluation — deployed as a real service with monitoring, not just a notebook.
 
 The system handles order status inquiries, refund/return requests, and shipping issues. In its current phase, it **does not take real actions** (no auto-refunds, no auto-cancellations) — every actionable case is escalated to a human reviewer with the agent's full reasoning and a drafted recommendation attached. Action permissions will be added incrementally as the reasoning layer proves reliable through evaluation.
 
