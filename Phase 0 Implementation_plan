@@ -1,0 +1,92 @@
+# Phase 0 Completion Plan: System Specifications
+
+This document outlines the final theoretical specifications required to complete Phase 0 of the AI Support Operations Platform.
+
+## User Review Required / Aapki Feedback Chahiye
+
+> [!IMPORTANT]
+> Yeh spec hamari foundation hai. Niche diye gaye 5 points check karein aur batayen ke kya yeh rules aur definitions aapke vision ke mutabiq hain, ya in mein kuch change karna chahiye?
+
+## 1. Exact Tool Interfaces (Read-Only)
+
+Agent ko e-commerce database se data nikalne ke liye yeh tools diye jayenge:
+
+### `get_order_details`
+* **Description:** Retrieves information about a specific order.
+* **Inputs:** `order_id` (string)
+* **Outputs:** Order Date, Total Amount, Items List, Payment Status, Shipping Address.
+
+### `get_customer_history`
+* **Description:** Retrieves past orders and loyalty status of a customer.
+* **Inputs:** `customer_email` (string)
+* **Outputs:** Customer Name, Account Creation Date, Lifetime Value, List of Past `order_id`s.
+
+### `get_shipping_tracking`
+* **Description:** Retrieves real-time tracking status from the carrier.
+* **Inputs:** `tracking_number` (string)
+* **Outputs:** Current Location, Carrier (e.g., FedEx), Status (e.g., In Transit, Delayed, Delivered, Damaged), Expected Delivery Date.
+
+## 2. Precise Escalation Conditions (Human hand-off rules)
+
+Agent khud action nahi lega balke in conditions mein case human agent ko transfer (escalate) kar dega:
+
+1. **Low Confidence:** Agar agent ki confidence score 70% se kam ho.
+2. **Action Required:** Customer ko refund, reshipment, ya order cancellation chahiye (kyunke Phase 1 mein agent read-only hai).
+3. **Explicit Request:** Customer khud human ya manager se baat karne ki demand kare.
+4. **High-Value Risk:** Agar order ki value $500 se zyada ho aur customer item damage ya loss report kare.
+
+## 3. Confidence Check Scoring Methodology
+
+Agent reasoning ke baad apne answer ko 0 se 100 tak score dega. Score in factors par base karega:
+* **Policy Match:** Kya RAG system se relevant policy mili? (e.g., 30-day return rule).
+* **Data Completeness:** Kya tools ne pura data return kiya? (e.g., tracking number valid tha?).
+* **Intent Clarity:** Kya customer ka sawal clear tha?
+
+**Thresholds:**
+* **90 - 100%:** High confidence. Agent directly reply karega.
+* **70 - 89%:** Medium confidence. Agent reply karega lekin sath mein human se connect karne ka option bhi dega.
+* **< 70%:** Low confidence. Agent reply nahi karega, balke directly escalate kar dega human ko.
+
+## 4. Evaluation Criteria Detail
+
+Jab hum agent ko test karenge toh in metrics par judge karenge:
+1. **Tool Accuracy:** Kya agent ne sahi tool, sahi parameters ke sath call kiya?
+2. **Retrieval Accuracy:** Kya usne sahi policy document RAG se nikala?
+3. **Escalation Precision:** Jin cases mein escalate karna chahiye tha, kya usne kiya? (No false positives/negatives).
+4. **Reasoning Quality:** Escalation ke waqt agent jo "Draft Recommendation" human ko bhejega, kya uski reasoning logical hai?
+
+## 5. Production Architecture Diagram
+
+Yahan system ki ek high-level architecture diagram hai (Mermaid format mein) jo Phase 0 ke flow ko dikhati hai.
+
+```mermaid
+graph TD
+    User([Customer]) -->|Message| API[FastAPI Backend]
+    API --> Intake[Intake & Session Management]
+    Intake --> Classifier[Intent & Context Node]
+    
+    Classifier --> Planner[Planning Node]
+    Planner --> Tools[(External Tools: DB, Shipping API)]
+    Planner --> RAG[(Vector DB / Policies)]
+    
+    Tools --> Reasoner[Reasoning Node]
+    RAG --> Reasoner
+    
+    Reasoner --> Confidence{Confidence Check}
+    
+    Confidence -->|Score >= 70 & No Action| Respond[Draft Direct Response]
+    Confidence -->|Score < 70 OR Action Needed| Escalate[Escalate to Human Queue]
+    
+    Respond --> API
+    API --> User
+    
+    Escalate --> Dashboard[Human Review Dashboard]
+    Dashboard --> Feedback[Feedback Capture / Eval Log]
+```
+
+## Open Questions
+
+> [!CAUTION]
+> 1. Tools ke inputs mein `customer_email` theek hai ya `customer_id` use karna chahiye?
+> 2. Kya 70% confidence ka threshold shuru ke liye theek hai?
+> 3. Koi aur escalation condition jo aap add karna chahte hain?
