@@ -1,4 +1,5 @@
 Faker==30.1.0
 python-dotenv==1.0.1
--U langchain
--U langgraph # use pip with it 
+-U langchain 
+-U langgraph 
+langchain-community 
