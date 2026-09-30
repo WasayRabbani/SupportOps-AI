@@ -1,0 +1,338 @@
+================================================================================
+FILE: faq.pdf
+================================================================================
+
+
+------------------------------------------------------------
+PAGE 1
+------------------------------------------------------------
+
+UrbanThread Apparel (Pvt.) Ltd. — Internal Policy Handbook — CONFIDENTIAL FAQ
+
+
+# Frequently Asked Questions
+
+Compiled from recurring customer support tickets — updated quarterly by the CS team.
+
+
+## Q1. How long does delivery take?
+
+It depends on your city. Karachi/Lahore/Islamabad customers usually get their order in 2-3 days. Other
+cities can take 4-7 days, and remote areas like Gilgit-Baltistan can take up to two weeks. See the full
+Shipping Policy document for the exact table.
+
+
+## Q2. Can I pay online instead of COD?
+
+Yes — we accept JazzCash, Easypaisa, and all major debit/credit cards at checkout. Prepaid orders are
+generally dispatched slightly faster since they skip the COD confirmation step.
+
+
+## What if I miss the courier's call?
+
+The rider will usually attempt delivery up to 3 times (though in practice this varies a lot by area — some
+couriers in smaller cities only try once, unfortunately). If you miss all attempts the order gets sent back to
+us and marked RTO.
+
+
+## Q3. Do you offer free returns?
+
+Only for damaged, defective, or wrong items — see Section 4 of the Refund Policy. For regular size/fit
+exchanges, the first exchange per order is free; a second one has a small Rs. 150 charge.
+
+
+## Q4. My tracking says 'delivered' but I never got the package. What now?
+
+This is treated as a priority escalation, not a normal delivery question — please contact support directly
+with your order number rather than waiting for the chatbot; this scenario is not something the automated
+flow should resolve on its own.
+
+
+## Q5. Can I return sale items?
+
+Items discounted more than 30% are exchange-only (no cash refund) and must be exchanged within 7
+days. Regular-priced items follow the normal 14-day policy.
+
+
+## Is customization/stitching returnable?
+
+No — once an item is cut/stitched to your measurements it can't be resold, so these are final sale. This is
+one of the most common escalation-avoidable questions, so it's worth checking with the customer
+BEFORE they order if their size is unusual.
+
+
+## Q6. I want to cancel my order, how do I do that?
+
+If the order hasn't been dispatched yet, just reply 'cancel' to the confirmation message and it'll be cancelled
+automatically. Once dispatched, it can't be cancelled mid-transit, but you can refuse delivery and it'll be
+treated as a standard RTO with no charge to you.
+
+
+## Q7. Do remote areas pay extra for COD?
+
+Yes, there's a remote-area surcharge (Rs. 200-350 depending on exact location) that's added at checkout
+automatically for Gilgit-Baltistan, Chitral, and similar remote destinations — this isn't a delivery fee, it's
+separate and shown as a line item.
+
+Note: this FAQ is a quick-reference summary maintained informally by the CS team and may lag behind the formal Shipping and
+Refund Policy documents after a policy change — where the two disagree, the formal policy document is authoritative.
+
+Do not distribute outside the organization. Page 1
+
+================================================================================
+FILE: refund_policy.pdf
+================================================================================
+
+
+------------------------------------------------------------
+PAGE 1
+------------------------------------------------------------
+
+UrbanThread Apparel (Pvt.) Ltd. — Internal Policy Handbook — CONFIDENTIAL Refund Policy
+
+
+# Returns, Exchanges & Refund Policy
+
+Effective for all orders placed on or after 1 January 2025.
+
+
+#### Revision History
+
+
+[TABLE]
+Version: 1.0 | Date: 2023-02-11 | Changed By: S. Raza (Ops) | Notes: Initial policy draft
+Version: 1.4 | Date: 2023-09-02 | Changed By: A. Khan (CS Lead) | Notes: Added COD-specific clauses
+Version: 2.0 | Date: 2024-06-18 | Changed By: S. Raza (Ops) | Notes: Merged with courier SLA doc
+Version: 2.1 | Date: 2025-01-30 | Changed By: F. Iqbal (Legal) | Notes: Minor wording, Section 4 reworded
+Version: 2.2 | Date: 2025-11-05 | Changed By: A. Khan (CS Lead) | Notes: Updated after Ramzan shipping delays
+[/TABLE]
+
+
+## 1. General Eligibility
+
+Items purchased from UrbanThread are eligible for return or exchange within 14 calendar days of the
+delivery date shown on the courier's proof-of-delivery record, not the order date. The item must be unworn,
+unwashed, and in its original packaging with all tags attached. UrbanThread reserves the right to refuse a
+return that shows visible signs of wear, odor (including perfume or deodorant residue), or alteration. This
+policy applies uniformly across COD and prepaid orders; payment method does not affect return eligibility.
+
+
+### CATEGORY-SPECIFIC EXCEPTIONS
+
+Certain product categories carry tighter or different rules than the general policy above, primarily for
+hygiene, customization, or promotional reasons. Agents must check the category table below before
+confirming eligibility to a customer, as several categories are non-refundable outright.
+
+
+[TABLE]
+Category: Ready-to-wear (unstitched) | Returnable?: Yes | Window: 14 days | Notes: Standard policy applies
+Category: Stitched / custom-tailored | Returnable?: No | Window: — | Notes: Made-to-measure; final sale
+Category: Innerwear & lingerie | Returnable?: No | Window: — | Notes: Hygiene exception, no exceptions made
+Category: Footwear | Returnable?: Yes | Window: 7 days | Notes: Shorter window; box must be undamaged
+Category: Accessories & jewelry | Returnable?: Yes | Window: 14 days | Notes: Original packaging mandatory
+Category: Sale / clearance items (>30% off) | Returnable?: Exchange only | Window: 7 days | Notes: No cash refund, store credit or exchange
+Category: Gift-wrapped orders | Returnable?: Yes | Window: 14 days | Notes: Gift wrap itself not refundable
+[/TABLE]
+
+Do not distribute outside the organization. Page 1
+
+
+------------------------------------------------------------
+PAGE 2
+------------------------------------------------------------
+
+UrbanThread Apparel (Pvt.) Ltd. — Internal Policy Handbook — CONFIDENTIAL Refund Policy
+
+
+## 2. Size / Fit Exchanges
+
+Size exchanges are treated distinctly from returns and are UrbanThread's most common post-delivery
+customer contact reason, particularly on unstitched and semi-formal lines where size charts are
+self-measured by the customer. A size exchange request does not require the original packaging to be in
+perfect condition, provided the garment itself is unworn and unwashed. One free size exchange is
+permitted per order; a second exchange on the same order is subject to a Rs. 150 handling and
+reverse-shipping charge, deducted from any refund or charged to the customer for a cash-on-delivery
+exchange shipment.
+
+
+#### Handling hesitant cancellation requests
+
+A customer message such as "cancel kar do, size sahi nahi lagega" is a sizing concern, not a firm
+cancellation, and should be treated per this section rather than processed as an outright order
+cancellation. Agents should offer the size chart and this exchange policy before processing any
+cancellation on sizing grounds. Repeated hesitation after this offer should be escalated per the standard
+low-confidence escalation path rather than resolved unilaterally by an automated agent.
+
+
+## 3. Refund Method and Timeline
+
+For prepaid orders, refunds are issued to the original payment method within 5-7 business days of the
+returned item passing warehouse quality inspection. For COD orders, since no original payment method
+exists, refunds are issued via bank transfer or JazzCash/Easypaisa to an account nominated by the
+customer, which typically adds 2-3 additional business days for account verification. Store credit, where
+chosen instead of a cash refund, is applied instantly upon return approval and does not require the
+verification step.
+
+
+### 4. DAMAGED OR INCORRECT ITEMS
+
+Items that arrive damaged, defective, or different from what was ordered are handled outside the standard
+14-day return window described in Section 1 above and are not subject to the category exceptions in the
+table (i.e. even a stitched or innerwear item that arrives genuinely damaged is eligible for return on this
+basis). The customer must report the issue within 48 hours of delivery and provide a photo of the item;
+UrbanThread bears the full cost of the reverse shipment in these cases, and no restocking or handling fee
+applies regardless of category.
+
+This section was reworded in v2.1 (see revision history) following a legal review that clarified that the
+48-hour reporting window is a target for prompt reporting, not a hard cutoff that forfeits the customer's
+statutory consumer-protection rights; agents should not refuse a damaged-item claim solely for being
+reported on day 3 or 4 if the item is clearly defective on inspection.
+
+Do not distribute outside the organization. Page 2
+
+================================================================================
+FILE: shipping_policy.pdf
+================================================================================
+
+
+------------------------------------------------------------
+PAGE 1
+------------------------------------------------------------
+
+
+# Shipping & Delivery Policy
+
+Applies to all COD and prepaid orders placed via the UrbanThread online store (Shopify) and marketplace
+channels.
+
+
+#### Revision History
+
+
+[TABLE]
+Version: 1.0 | Date: 2023-02-11 | Changed By: S. Raza (Ops) | Notes: Initial policy draft
+Version: 1.4 | Date: 2023-09-02 | Changed By: A. Khan (CS Lead) | Notes: Added COD-specific clauses
+Version: 2.0 | Date: 2024-06-18 | Changed By: S. Raza (Ops) | Notes: Merged with courier SLA doc
+Version: 2.1 | Date: 2025-01-30 | Changed By: F. Iqbal (Legal) | Notes: Minor wording, Section 4 reworded
+Version: 2.2 | Date: 2025-11-05 | Changed By: A. Khan (CS Lead) | Notes: Updated after Ramzan shipping delays
+[/TABLE]
+
+
+## 1. Scope
+
+This document governs the shipping timelines, courier handling procedures, and cash-on-delivery (COD)
+confirmation process for all orders processed through UrbanThread's e-commerce channels. It
+supersedes any verbal commitments made by customer support representatives and should be treated as
+the single source of truth for shipping-related customer queries. Where a conflict exists between this
+document and information published on the storefront FAQ page, this document governs unless the
+storefront has been updated after the version date shown in the revision history above.
+
+
+## 2. Order Processing Timeline
+
+Orders placed before 3:00 PM PKT on a business day are dispatched the same day, subject to inventory
+availability at the fulfilling warehouse. Orders placed after 3:00 PM PKT, or on Saturday after 1:00 PM,
+Sunday, or a designated public holiday, are queued for dispatch on the following business day. During
+high-volume periods (Eid, 11.11, Black Friday, year-end sale), dispatch may be delayed by up to two
+additional business days; customers should be informed of this proactively where an agent is aware a sale
+period is active.
+
+
+### DELIVERY WINDOWS BY REGION
+
+Delivery windows vary significantly by destination tier. The table below reflects current courier partner
+SLAs as of the version date above and should be cross-checked against the courier dashboard if a
+customer disputes a delay beyond the stated window.
+
+
+[TABLE]
+City Tier: Tier 1 | Example Cities: Karachi, Lahore, Islamabad | Standard Delivery: 2-3 business days | COD Orders: 2-4 business days | Remote Surcharg: None
+City Tier: Tier 2 | Example Cities: Faisalabad, Multan, Peshawar, Rawalpindi | Standard Delivery: 3-5 business days | COD Orders: 3-6 business days | Remote Surcharg: Rs. 50
+City Tier: Tier 3 | Example Cities: Sialkot, Gujranwala, Hyderabad, Sukkur | Standard Delivery: 4-6 business days | COD Orders: 5-7 business days | Remote Surcharg: Rs. 100
+City Tier: Remote / Northern Are | Example Cities: aGsilgit, Skardu, Chitral, rural Balochistan | Standard Delivery: 7-12 business days | COD Orders: 8-14 business days | Remote Surcharg: Rs. 200-350
+[/TABLE]
+
+e
+
+Note: the above figures exclude the day of dispatch. Public holidays observed by the courier partner (not necessarily matching
+UrbanThread's own holiday calendar) may add 1-2 days without notice. Agents should not quote the lower bound of a range as a
+guarantee.
+
+
+------------------------------------------------------------
+PAGE 2
+------------------------------------------------------------
+
+
+## 3. Cash-on-Delivery (COD) Confirmation Process
+
+Approximately 88% of UrbanThread's order volume is COD. Because COD orders carry a materially
+higher return-to-origin (RTO) risk than prepaid orders, every COD order above Rs. 1,500 must go through
+an automated or manual confirmation step before being handed to the courier. This is separate from, and
+in addition to, the courier's own delivery-attempt call.
+
+
+#### 3a. What counts as a valid confirmation
+
+A customer reply of "yes", "haan", "confirm", "theek hai", "ok bhej dein" or equivalent affirmative language,
+sent within 24 hours of the confirmation message, counts as valid confirmation. A reply asking a clarifying
+question (e.g. about delivery timing, price, or size) does NOT count as confirmation or as cancellation — it
+should be answered and confirmation re-requested.
+
+
+#### 3b. Non-response handling
+
+If no response is received within 24 hours, a single automated reminder is sent. If there is still no response
+after a further 24 hours, the order is flagged for manual outbound calling by the CS team before being
+marked RTO-risk and held from dispatch. Orders should never be auto-cancelled purely for non-response
+without at least one outbound call attempt, per the Q2 2025 ops review.
+
+
+### 4. COURIER PARTNERS
+
+UrbanThread currently contracts with the following courier partners. Assignment is by destination city and
+current partner capacity, handled automatically by the fulfillment system; customer support agents cannot
+manually reassign a courier once dispatched.
+
+
+[TABLE]
+Courier: Leopards Courier | Coverage: Nationwide | COD Remittance Cycle: Weekly, every Monday
+Courier: TCS | Coverage: Nationwide, priority for Tier 1 | COD Remittance Cycle: Weekly, every Thursday
+Courier: M&P (Call Courier) | Coverage: Punjab-heavy, secondary elsewhere | COD Remittance Cycle: Bi-weekly
+Courier: PostEx | Coverage: Nationwide, COD specialist | COD Remittance Cycle: Weekly, every Tuesday
+[/TABLE]
+
+
+------------------------------------------------------------
+PAGE 3
+------------------------------------------------------------
+
+
+## 5. Failed Delivery Attempts
+
+Couriers are contracted to make up to three delivery attempts before returning a parcel to origin. In
+practice, Tier 3 and remote-area couriers frequently make only one attempt before marking a parcel
+undeliverable and initiating return — this is a known gap in courier SLA compliance and is tracked
+separately in the monthly courier performance review, not something the support agent can resolve in real
+time. Where a customer reports zero delivery attempts despite a "delivery attempted" status on the
+tracking page, this should be escalated to the logistics coordinator rather than promised a specific
+resolution.
+
+
+#### Address Correction Requests
+
+A customer may request an address correction any time before the order status shows "Out for Delivery".
+Once a parcel is out for delivery, the courier's own rider must be contacted directly; UrbanThread's system
+cannot push a mid-route address change to most courier partners' apps in real time. PostEx is the sole
+exception, supporting live address edits via their rider app.
+
+
+## 6. Force Majeure and Regional Disruptions
+
+UrbanThread shall not be held liable for shipping delays arising from circumstances beyond its reasonable
+control, including but not limited to: political unrest, transport strikes, extreme weather events, internet or
+telecom outages affecting order confirmation, government-mandated curfews, or courier partner-side
+operational disruptions. In such cases, the standard delivery windows in Section 2 are suspended and a
+revised estimate is communicated once available. This clause has been invoked most recently during the
+November 2025 fog-related flight disruptions affecting air-freighted Tier-1-to-remote shipments.
+
